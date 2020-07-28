@@ -94,6 +94,8 @@ dependencies {
     //Toothpick
     val toothpickVersion = "3.1.0"
     implementation("com.github.stephanenicolas.toothpick:toothpick-runtime:$toothpickVersion")
+    implementation("com.github.stephanenicolas.toothpick:ktp:$toothpickVersion")
+    implementation("com.github.stephanenicolas.toothpick:smoothie-androidx:$toothpickVersion")
     kapt("com.github.stephanenicolas.toothpick:toothpick-compiler:$toothpickVersion")
 
     //Gson
